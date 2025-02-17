@@ -64,17 +64,19 @@
             <!-- from https://yangekun.gitee.io/blog/2018/12/14/2018-12-14-Bootstrap%E5%AF%BC%E8%88%AA%E6%A0%8F%E7%9A%84%E8%87%AA%E5%8A%A8%E6%8A%98%E5%8F%A0%E9%9A%90%E8%97%8F/ -->
             <script>
                   $(window).scroll(function () {
-                //小屏幕下的导航条折叠
-                if ($(window).width() < 768) {
-                  //点击导航链接之后，把导航选项折叠起来
-                  $("#navbar a").click(function () {
-                    $("#navbar").collapse('hide');
-                  });
-                  //滚动屏幕时，把导航选项折叠起来
-                  $(window).scroll(function () {
-                    $("#navbar").collapse('hide');
-                  });
-                }
+                // //小屏幕下的导航条折叠
+                // if ($(window).width() < 768) {
+                //   //点击导航链接之后，把导航选项折叠起来
+                //   $("#navbar a").click(function () {
+                //     $("#navbar").collapse('hide');
+                //   });
+                //   //滚动屏幕时，把导航选项折叠起来
+                //   $(window).scroll(function () {
+                //     $("#navbar").collapse('hide');
+                //   });
+                // }
+		$ 始终折叠导航条
+		 $("#navbar").collapse('hide');
               });	
             </script>
 
