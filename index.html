@@ -76,7 +76,9 @@
                 //   });
                 // }
 		$ 始终折叠导航条
-		 $("#navbar").collapse('hide');
+                  $(window).scroll(function () {
+                    $("#navbar").collapse('hide');
+                  };
               });	
             </script>
 
